@@ -9,7 +9,7 @@ Tedious task of manually editing individual project files is now replaced by pac
 Common.targets take immediate effect. 
 
 Here is a sample solution level targets file that would add common 'BeforeBuild' and 'AfterBuild' targets to a project. Using 
-conditions on targets tasks a fine grained control can be achieved over what is executed based on the context of individual 
+conditions on targets and tasks a fine grained control can be achieved over what is executed based on the context of individual 
 projects:
 
 	<?xml version="1.0" encoding="utf-8"?>
