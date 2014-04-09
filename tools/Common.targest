@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <!--
+         Define common solution targets. The targest will be add to all
+         projects that have installed `Install-Package Common.targets` package.
+
+         E.g.
+         <Target Name="BeforeBuild">
+           <Error Text="Web.config is not allowed in a Sitecore web project. Consider merging into web.transform.config or remove it." Condition="Exists( '$(MSBuildProjectDirectory)\web.config' )" />
+         </Target>
+    -->
+</Project>

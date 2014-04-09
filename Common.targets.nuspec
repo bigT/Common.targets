@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package>
+  <metadata minClientVersion="2.7">
+    <id>Common.targets</id>
+    <title>Common Solution Targets</title>
+    <version>1.0</version>
+    <authors>Taras Alenin</authors>
+    <owners>Taras Alenin</owners>
+    <licenseUrl>https://github.com/bigT/Common.props/blob/master/license.txt</licenseUrl>
+    <projectUrl>https://github.com/bigT/Common.props</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <developmentDependency>true</developmentDependency>
+    <description>
+Introduces a Common.targets file at a solution level. Adding this package to multiple projects in the solution allows sharing of common targest across projects. Adding 'BeforeBuild and 'AfterBuild' targets can be done in one place and shared between mulptipl projects.
+
+Tedious task of manually editing individual project files is now replaced by package installation. Changes made to the Common.targets take immediate effect.
+    </description>
+    <summary>
+Introduces a Common.targets file at a solution level. Adding this package to multiple projects in the solution allows sharing of common targets across projects. Adding 'BeforeBuild and 'AfterBuild' targets can be done in one place and shared between multiple projects.
+
+Tedious task of manually editing individual project files is now replaced by package installation. Changes made to the Common.targets take immediate effect.
+    </summary>
+    <releaseNotes>
+    </releaseNotes>
+    <copyright>Copyright (c) Taras Alenin (taras.alenin@gmail.com)</copyright>
+    <language>en-US</language>
+  </metadata>
+  <files>
+    <file src="license.txt" target="license.txt" />
+    <file src="build\**\*.*" target="build" />
+    <file src="tools\**\*.*" target="tools" />
+  </files>
+</package>
