@@ -1,4 +1,4 @@
-# Common.props
+# Common.targets
 
 
 Introduces a Common.targets file at a solution level. Adding this package to multiple projects in the solution allows sharing of 
